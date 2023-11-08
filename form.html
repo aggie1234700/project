@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    
+     <style>
+        html {
+  font-size: 22px;
+}
+body {
+  
+  width: 100%;
+   
+    text-align: center;
+    padding: 100px o;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/VOCAL.jpg);
+    background-position: center;
+    background-size:auto ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+    align-content:stretch;
+    
+
+}
+
+
+
+     </style>
+</head>
+<body>
+    
+ 
+ <section>
+         <h2>Enrollment Form</h2>
+     <p>Fill the form below if you want to enroll for training.  </p>
+    
+   </section>
+
+ <form action="myphp.php" method="post">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" id="fname" name="fname" value="Neville"></td>
+
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lname" value="Otieno"> </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="text" name="pnumber" value="insert phone number"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td>
+            <td><input type="date" name="D.O.B" value="01/01/2001"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text"  name="Email" value="type your email here"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><INPUT TYPE="checkbox" NAME="Male"
+                VALUE="yes">Male <br><INPUT TYPE="checkbox" NAME="Female"
+                VALUE="yes">Female</td>
+        </tr>
+        
+        <tr>
+            <td><button onclick="ClearData()">ClearData </button></td>
+           <td><button onclick="UpdateData()">UpdateData </button></td>
+           
+        </tr>
+       
+    </table>
+</form>
+<section class="price list" >
+    <h2>Price List For The Items</h2>
+   
+       <table border="I" cellspacing="10" align="left">
+           <tr>
+               <td><b>ITEM</b></td>
+               <td><b>PRICE</b></td>
+               
+               <td><b>ITEM</b></td>
+               <td><b>PRICE</b></td>
+
+           </tr>
+           <tr>
+               
+               <td><img src="images/drum.jpg" alt=""width="100" height="100"><figure><figcaption>DRUM</figcaption></figure></td><td>$400-$2,000</td>
+               <td><img src="images/flute.jpg" alt=""width="100" height="100"><figure><figcaption>FLUTE</figcaption></figure></td>
+               <td><b>$1,400-$2,500</b></td>
+               
+           </tr>
+           
+       
+           <tr>
+               <td><img src="images/lead guiter.jpg" alt=""width="50" height="100"><figure><figcaption>LEAD GUITER</figcaption></figure></td>
+               <td><b>$100-$200</b></td>
+           
+               <td><img src="images/piano.jpg" alt=""width="100" height="100"><figure><figcaption>PIANO</figcaption></figure></td>
+               <td><b>$500-$1,000</b></td>
+           
+              
+           </tr>
+
+           <tr>
+               <td><img src="images/trumpet.jpg" alt=""width="100" height="100"><figure><figcaption>TRUMPET</figcaption></figure></td>
+               <td><b><ul>
+                   <li>Beginner $300-$1,00</li>
+                   <li>Set-Up $1,200-$3,000</li>
+                   <li>Professional $2,000 and above</li>
+              </ul></b></td>
+          
+               <td><img src="images/banjo.jpg" alt=""width="100" height="100"><figure><figcaption>BANJO</figcaption></figure></td>
+               <td><b>$50-$3,000</b></td>
+           
+           </tr>
+
+           <tr>
+               <td><img src="images/cello.jpg" alt=""width="100" height="100"><figure><figcaption>CELLO</figcaption></figure></td>
+               <td><b><ul>
+                   <li>Beginner $300-$2,500</li>
+                   <li>Intermediate $2,500 and above</li>
+              </ul></b></td>
+               <td><img src="images/euphonium.jpg" alt="euphonium"width="100" height="100"><figure><figcaption>EUPHONIUM</figcaption></figure></td>
+               <td><b>$300-$500</b></td>
+           </tr>
+           <tr>
+               <td><img src="images/bass guiter.jpg" alt=""width="100" height="100"><figure><figcaption>BASS GUITER</figcaption></figure></td>
+               <td><b>$150-$1,500</b></td>
+               <td><img src="images/saxophone.jpg" alt=""width="100" height="100"><figure><figcaption>SAXOPHONE</figcaption></figure></td>
+               <td><b><ul>
+                   <li>Electric $400-$800</li>
+                   <li>Alto $250-$500</li>
+                   <li>Bariton $1,000 and above</li>
+              </ul></b></td>
+           </tr>
+           <tr>
+               <td><img src="images/clarinet.jpg" alt=""width="100" height="100"><figure><figcaption>CLARINET</figcaption></figure></td><td>
+                   <ul>
+                    <li>Beginner $500</li>
+                    <li>Step-Up $1,300-$2,800</li>
+                    <li>Pro $2,000 and above</li>
+               </ul></td>
+               <td></td>
+               <td>
+                   <p><a href="contact.html">Contact Us </a>if you want to purchase any of the items.</p>
+               </td>
+           </tr>
+           </tr>
+           
+       </table>
+   
+</section>
+<a href="home.html">--------BACK-------</a>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+        <title>AGON-Studios</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PV1GOfqNHSoD2xbE+QkPxCAF1NEevoEH3S10sibVcOQVnN" crossorigin="anonymous">
+       
+    </head>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/logo.jpg);
+   background-position:center;
+    background-size:cover;
+    position:relative;
+}
+nav {
+    display:flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;
+
+}
+nav-img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}  
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content h1{
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(241, 230, 230);
+}
+.contact .content h2{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(238, 227, 227);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.contact .contactForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(245, 239, 239);
+}
+/*---container----*/
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-col{
+    flex-basis: 31%;
+    background: #f0c396;
+    border-radius: 100px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+.container-col:hover{
+    box-shadow: 0 0 50px 0px rgba(226, 223, 223, 0.2);
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+ </style>
+
+<body>
+    <section class="header">
+        <nav>
+           
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+<section class="contact">
+    <div class="content">
+        <h1>We Are Here For <br> You.</h1>
+        <h2> <u>Contact Us</u></h2>
+        <p>You can reach to us using our email or phone number. <br> Incase you face any challenges or have an inquiry you can as well write to us a message<br> and we  will respond to it. </p>
+    </div>    
+    
+        
+ <!---container-->
+
+    <section class="container">
+    
+
+                    <div class="row">
+                        <div class="container-col">
+                            <h3>Address</h3>
+                            <p>4115-20100 <br>Mache Plaza Nakuru, Kenya</p>
+                        </div>
+                        <div class="container-col">
+                            <h3>Phone</h3>
+                            <p>+254 757408886</p>
+                        </div>
+                        <div class="container-col">
+                            <h3>Email</h3>
+                            <p>agon@gmail.com</p>
+                        </div>
+                        
+                    </div>
+               
+   
+    </section>   
+    <div class="contactForm">
+        <form action="mailto:aggiepius751@gmmail.com" method="post">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+                <input type="text" name="" required="required">
+                <span>Email</span>
+            </div>
+            <div class="inputBox">
+                <textarea name="required" ></textarea>
+               
+                <span>Type your message...</span>
+            </div> 
+            
+            <div class="inputBox">
+                <input type="submit" name="" value="send">
+            
+            </div>
+        </form>
+    </div>  
+</section>
+
+
+    <a href="#">Back To Top.</a>
+    </body>
+</html>
